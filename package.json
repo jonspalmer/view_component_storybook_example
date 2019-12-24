@@ -12,6 +12,11 @@
   },
   "version": "0.1.0",
   "devDependencies": {
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/addon-knobs": "^5.2.8",
     "webpack-dev-server": "^3.10.1"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9011 --preview-url=http://localhost:3000/storybook_preview"
   }
 }

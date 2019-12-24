@@ -1,24 +1,17 @@
-# README
+# ActionView::Component Standalone Preview
+This project demonstrates a Stroybook preview running in standalone mode with a Rails backend.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run the Rails backed:
 
-Things you may want to cover:
+```
+rails s
+```
+This starts a Rails dev server on port 3000.
 
-* Ruby version
+To view the stories in the storybook UI:
 
-* System dependencies
+```
+yarn storybook
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This runs the Storybook dev server loading stories from the Rails storybook_preview endpoint
