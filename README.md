@@ -1,16 +1,26 @@
 # ActionView::Component Standalone Preview
-This project demonstrates a Stroybook preview running in standalone mode with a Rails backend.
+This project demonstrates a Storybook running in standalone mode with a Rails backend that generates Stories based on ActionView::Component previews.
 
-To run the Rails backed:
+## Ruby Version
+Use your favorite Ruby version manager to install 2.5.5
 
+## Install Gems and Node modules
+```bash
+bundle install
+yarn
 ```
+
+## Run the Rails backend:
+
+```bash
 rails s
 ```
 This starts a Rails dev server on port 3000.
 
+## Run Storybook
 To view the stories in the storybook UI:
 
-```
+```bash
 yarn storybook
 ```
 
