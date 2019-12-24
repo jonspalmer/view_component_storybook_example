@@ -1,0 +1,20 @@
+/* rails-erb-loader-dependencies components/ ../test/components/previews/ */
+
+const stories =[];
+let story;
+
+<% ActionView::Component::Preview.all.each do |preview| %>
+  story = { default: { title: "<%= preview.preview_name.titleize %>" } };
+
+    <% preview.examples.each do |example| %>
+      story["<%= example %>"] = () => "<div><%= preview.preview_name.titleize %> - <%= example %></div>"
+    <% end %>
+
+  stories.push(story);
+
+  console.log("built story")
+  console.log(story)
+
+<% end %>
+
+export default stories;
