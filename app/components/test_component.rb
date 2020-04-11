@@ -1,6 +1,4 @@
-class TestComponent < ActionView::Component::Base
-  validates :content, :title, presence: true
-
+class TestComponent < ViewComponent::Base
   def initialize(title:)
     @title = title
   end

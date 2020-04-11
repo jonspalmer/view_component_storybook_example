@@ -1,7 +1,8 @@
 require_relative 'boot'
 
 require 'rails/all'
-require "action_view/component"
+require "view_component/engine"
+require "view_component/storybook/engine"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
