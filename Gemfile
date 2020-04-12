@@ -28,9 +28,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
-gem "view_component"
-
-gem "view_component_storybook", path: "../view-component-storybook"
+gem "view_component_storybook"
 
 
 group :development, :test do

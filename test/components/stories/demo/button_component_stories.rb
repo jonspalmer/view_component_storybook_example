@@ -1,5 +1,7 @@
 module Demo
   class ButtonComponentStories < ViewComponent::Storybook::Stories
+    layout "storybook_preview"
+
     story(:with_short_text) do
       knobs do
         text(:button_text, 'OK')

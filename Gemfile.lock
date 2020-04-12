@@ -1,9 +1,3 @@
-PATH
-  remote: ../view-component-storybook
-  specs:
-    view_component_storybook (0.1.0)
-      view_component (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -184,6 +178,8 @@ GEM
       thread_safe (~> 0.1)
     view_component (2.2.2)
       capybara (~> 3)
+    view_component_storybook (0.1.0)
+      view_component (>= 2.2)
     web-console (4.0.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -222,8 +218,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
-  view_component
-  view_component_storybook!
+  view_component_storybook
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)

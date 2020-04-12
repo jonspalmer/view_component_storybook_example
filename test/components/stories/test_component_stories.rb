@@ -1,4 +1,6 @@
 class TestComponentStories < ViewComponent::Storybook::Stories
+  layout "storybook_preview"
+
   parameters(
     server: {
       params: { color: 'red' }
@@ -9,17 +11,25 @@ class TestComponentStories < ViewComponent::Storybook::Stories
     parameters(
       server: {
         params: { color: 'orange' }
+      },
+      actions: {
+        handles: ['click', 'contextmenu']
       }
     )
     knobs do
       text(:title, 'Test component default')
     end
-    actions('click', 'contextmenu')
+    content do
+      "Lorem Ipsum"
+    end
   end
 
   story(:with_long_title) do
     knobs do
       title 'This is a really long title to see how the component renders this'
+    end
+    content do
+      "Help me please"
     end
   end
 end

@@ -1,4 +1,4 @@
-import { addParameters, addDecorator } from '@storybook/server';
+import { addParameters } from '@storybook/server';
 
 addParameters({
   a11y: {
@@ -15,6 +15,6 @@ addParameters({
     iframeHeight: '200px',
   },
   server: {
-    url: `http://localhost:3000/storybook_preview`,
+    url: `http://localhost:3000/rails/stories`,
   },
 });

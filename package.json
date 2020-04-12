@@ -6,17 +6,19 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
-    "@storybook/react": "^5.3.18",
     "rails-erb-loader": "^5.5.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@storybook/addon-docs": "^5.2.8",
-    "@storybook/addon-knobs": "^5.2.8",
+    "@storybook/server": "../storybook/app/server",
+    "@storybook/addon-a11y": "^v6.0.0-alpha.32",
+    "@storybook/addon-actions": "^v6.0.0-alpha.32",
+    "@storybook/addon-docs": "^v6.0.0-alpha.32",
+    "@storybook/addon-knobs": "^v6.0.0-alpha.32",
     "webpack-dev-server": "^3.10.1"
   },
   "scripts": {
-    "storybook": "start-storybook -p 9011 --preview-url=http://localhost:3000/storybook_preview"
+    "storybook": "start-storybook"
   }
 }
