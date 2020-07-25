@@ -1,6 +1,4 @@
-import { addParameters } from '@storybook/server';
-
-addParameters({
+export const parameters = {
   a11y: {
     config: {},
     options: {
@@ -17,4 +15,4 @@ addParameters({
   server: {
     url: `http://localhost:3000/rails/stories`,
   },
-});
+};
