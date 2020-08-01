@@ -16,7 +16,7 @@ class TestComponentStories < ViewComponent::Storybook::Stories
         handles: ['click', 'contextmenu']
       }
     )
-    knobs do
+    controls do
       text(:title, 'Test component default')
     end
     content do
@@ -25,7 +25,7 @@ class TestComponentStories < ViewComponent::Storybook::Stories
   end
 
   story(:with_long_title) do
-    knobs do
+    controls do
       title 'This is a really long title to see how the component renders this'
     end
     content do

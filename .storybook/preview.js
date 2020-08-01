@@ -6,9 +6,6 @@ export const parameters = {
       restoreScroll: true,
     },
   },
-  options: {
-    showRoots: true,
-  },
   docs: {
     iframeHeight: '200px',
   },
