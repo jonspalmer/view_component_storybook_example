@@ -2,21 +2,21 @@
   "name": "view_component_storybook_example",
   "private": true,
   "dependencies": {
-    "@rails/actioncable": "^6.0.0",
-    "@rails/activestorage": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "5.1.1",
+    "@rails/actioncable": "^6.1.1",
+    "@rails/activestorage": "^6.1.1",
+    "@rails/ujs": "^6.1.1",
+    "@rails/webpacker": "5.2.1",
     "rails-erb-loader": "^5.5.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@storybook/addon-a11y": "^v6.0.0-rc.20",
-    "@storybook/addon-actions": "^v6.0.0-rc.20",
-    "@storybook/addon-docs": "^v6.0.0-rc.20",
-    "@storybook/addon-controls": "^v6.0.0-rc.20",
-    "@storybook/server": "^v6.0.0-rc.20",
-    "webpack-dev-server": "^3.11.0"
+    "@storybook/addon-a11y": "^v6.1",
+    "@storybook/addon-actions": "^v6.1",
+    "@storybook/addon-controls": "^v6.1",
+    "@storybook/addon-docs": "^v6.1",
+    "@storybook/server": "^v6.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
     "storybook": "start-storybook"
