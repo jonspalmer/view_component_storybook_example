@@ -32,4 +32,13 @@ class TestComponentStories < ViewComponent::Storybook::Stories
       "Help me please"
     end
   end
+
+  story(:failing_with_single_quote) do
+    controls do
+      title "Failing story with single quote: '"
+    end
+    content do
+      "Let's go!"
+    end
+  end
 end
