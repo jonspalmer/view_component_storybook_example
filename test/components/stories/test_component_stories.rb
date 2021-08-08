@@ -16,18 +16,18 @@ class TestComponentStories < ViewComponent::Storybook::Stories
         handles: ['click', 'contextmenu']
       }
     )
-    controls do
-      text(:title, 'Test component default')
-    end
+    constructor(
+      title: text('Test component default')
+    )
     content do
       "Lorem Ipsum"
     end
   end
 
   story(:with_long_title) do
-    controls do
-      title 'This is a really long title to see how the component renders this'
-    end
+    constructor(
+      title: text('This is a really long title to see how the component renders this')
+    )
     content do
       "Help me please"
     end

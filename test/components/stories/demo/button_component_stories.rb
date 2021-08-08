@@ -3,21 +3,21 @@ module Demo
     layout "storybook_preview"
 
     story(:with_short_text) do
-      controls do
-        text(:button_text, 'OK')
-      end
+      constructor(
+        button_text: text('OK')
+      )
     end
 
     story(:with_long_text) do
-      controls do
-        text(:button_text, 'Push Me Please!')
-      end
+      constructor(
+        button_text: text('Push Me Please!')
+      )
     end
 
     story(:with_really_long_text) do
-      controls do
-        text(:button_text, 'Push Me Please! You know you want to!!')
-      end
+      constructor(
+        button_text: text('Push Me Please! You know you want to!!')
+      )
     end
   end
 end
