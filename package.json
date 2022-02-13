@@ -14,7 +14,7 @@
     "@storybook/addon-a11y": "^6.3.6",
     "@storybook/addon-essentials": "^6.3.6",
     "@storybook/server": "^6.3.6",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^4.7.4"
   },
   "scripts": {
     "storybook": "start-storybook"
