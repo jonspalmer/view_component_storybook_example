@@ -39,3 +39,12 @@ yarn-debug.log*
 
 # Ignore auto generatted stories.json
 **/*.stories.json
+
+# yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
