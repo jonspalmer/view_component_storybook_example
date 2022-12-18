@@ -1,10 +1,11 @@
 GIT
   remote: git@github.com:jonspalmer/view_component_storybook.git
-  revision: c46bf33ab00bc05c0815bab1fa961c072473d930
-  branch: main
+  revision: 64ac3005dd6a1e80da4c292b26c62a2a4dddbb23
+  branch: v1_api
   specs:
     view_component_storybook (0.11.1)
       view_component (>= 2.54)
+      yard (~> 0.9.25)
 
 GEM
   remote: https://rubygems.org/
@@ -202,7 +203,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
-    view_component (2.78.0)
+    view_component (2.79.0)
       activesupport (>= 5.0.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
@@ -220,12 +221,15 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
+    webrick (1.7.0)
     websocket (1.2.9)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+    yard (0.9.28)
+      webrick (~> 1.7.0)
     zeitwerk (2.6.6)
 
 PLATFORMS

@@ -10,6 +10,6 @@ export const parameters = {
     iframeHeight: '200px',
   },
   server: {
-    url: `http://localhost:3000/rails/stories`,
+    url: `http://localhost:3000/rails/view_components`,
   },
 };
