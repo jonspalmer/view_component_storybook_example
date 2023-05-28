@@ -11,12 +11,17 @@
   },
   "version": "0.1.0",
   "devDependencies": {
-    "@storybook/addon-a11y": "^6.5.5",
-    "@storybook/addon-essentials": "^6.5.5",
-    "@storybook/server": "^6.5.5",
+    "@babel/preset-env": "^7.22.2",
+    "@storybook/addon-a11y": "^7.0.18",
+    "@storybook/addon-essentials": "^7.0.18",
+    "@storybook/server": "^7.0.18",
+    "@storybook/server-webpack5": "^7.0.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.18",
     "webpack-dev-server": "^4.7.4"
   },
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "storybook dev"
   }
 }

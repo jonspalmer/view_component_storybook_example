@@ -25,5 +25,7 @@ module AvcStorybook
       'Access-Control-Allow-Origin' => '*',
       'Access-Control-Request-Method' => %w{GET}.join(",")
     }
+
+    config.view_component.preview_paths << "help/me"
   end
 end

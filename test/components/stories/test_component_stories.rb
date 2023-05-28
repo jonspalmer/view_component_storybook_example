@@ -2,9 +2,9 @@ class TestComponentStories < ViewComponent::Storybook::Stories
   layout "storybook_preview"
 
   parameters(
-    server: {
+    {server: {
       params: { color: 'red' }
-    }
+    }}
   )
 
   # story(:with_default_title) do
